@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/island_settings_title">
+
+    <PreferenceCategory
+        android:key="island_category"
+        android:title="@string/island_settings_title">
+
+        <SwitchPreference
+            android:key="island_switch_on"
+            android:title="@string/island_switch_on"
+            android:summary="@string/island_switch_on_summary" />
+
+        <SwitchPreference
+            android:key="island_switch_charge"
+            android:title="@string/island_switch_charge"
+            android:summary="@string/island_switch_charge_summary" />
+
+        <SwitchPreference
+            android:key="island_switch_media"
+            android:title="@string/island_switch_media"
+            android:summary="@string/island_switch_media_summary" />
+
+        <SwitchPreference
+            android:key="island_switch_sms"
+            android:title="@string/island_switch_sms"
+            android:summary="@string/island_switch_sms_summary" />
+
+        <SwitchPreference
+            android:key="island_switch_notif"
+            android:title="消息通知上岛"
+            android:summary="将选定应用的新消息以灵动岛横幅胶囊弹出展示" />
+
+        <Preference
+            android:key="island_notif_apps"
+            android:title="选择灵动岛推送应用"
+            android:summary="仅勾选的用户软件会通过灵动岛推送消息"
+            android:fragment="com.android.settings.island.IslandNotificationAppsFragment" />
+
+        <Preference
+            android:key="island_calibration"
+            android:title="@string/island_calibration_title"
+            android:summary="@string/island_calibration_summary">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="com.aura.island"
+                android:targetClass="com.aura.island.IslandCalibrationActivity" />
+        </Preference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

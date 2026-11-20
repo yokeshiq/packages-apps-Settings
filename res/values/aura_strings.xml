@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="island_settings_title">Dynamic Island</string>
+    <string name="island_settings_summary">Configure dynamic island notifications, media and charging</string>
+    <string name="island_switch_on">Enable Dynamic Island</string>
+    <string name="island_switch_on_summary">Show interactive capsule around the camera cutout</string>
+    <string name="island_switch_charge">Charging alerts</string>
+    <string name="island_switch_charge_summary">Display charging status and battery level on the island</string>
+    <string name="island_switch_media">Media playback</string>
+    <string name="island_switch_media_summary">Show active music controls and visualizer on the island</string>
+    <string name="island_switch_sms">SMS verification code</string>
+    <string name="island_switch_sms_summary">Extract incoming SMS OTP codes for quick copy or fill</string>
+    <string name="island_calibration_title">Cutout position &amp; size calibration</string>
+    <string name="island_calibration_summary">Fine-tune island alignment with the front camera</string>
+    <string name="background_management_title">Background management</string>
+    <string name="background_management_summary">Manage app tombstone freezing and background policies</string>
+</resources>

@@ -322,5 +322,10 @@
             android:key="vr_display_pref"
             android:title="@string/display_vr_pref_title"
             android:fragment="com.android.settings.display.VrDisplayPreferencePicker"/>
-    </PreferenceCategory>
+        <Preference
+        android:key="island_settings"
+        android:title="@string/island_settings_title"
+        android:summary="@string/island_settings_summary"
+        android:fragment="com.android.settings.island.IslandFragment" />
+</PreferenceCategory>
 </PreferenceScreen>

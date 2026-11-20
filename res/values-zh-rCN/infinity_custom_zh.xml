@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="window_blurs">允许窗口级模糊</string>
+    <string name="personal_context_title">个人上下文管理器</string>
+    <string name="platform_compat_target_sdk_title">为 targetSdkVersion >= %d 启用</string>
+    <string name="background_management_title">后台管理</string>
+    <string name="background_management_summary">管理应用墓碑冻结与后台运行策略</string>
+    <string-array name="wifi_privacy_entries_ext">
+        <item>每次连接使用随机 MAC（默认）</item>
+        <item>每个网络使用随机 MAC</item>
+        <item>使用设备 MAC</item>
+    </string-array>
+</resources>

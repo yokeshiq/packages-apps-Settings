@@ -60,6 +60,16 @@
             android:fragment="com.infinity.suite.fragments.IdleManagerSettings"
             settings:controller="com.android.settings.fuelgauge.IdleManagerPreferenceController" />
 
+        <Preference
+            android:key="background_management"
+            android:title="@string/background_management_title"
+            android:summary="@string/background_management_summary">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="org.uwuaosp.settingsext"
+                android:targetClass="org.uwuaosp.settingsext.background.BackgroundManagementActivity" />
+        </Preference>
+
         <SwitchPreferenceCompat
             android:key="aggressive_standby_sleep"
             android:title="@string/aggressive_standby_sleep_title"

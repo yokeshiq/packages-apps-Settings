@@ -187,4 +187,6 @@
     <!-- Aggressive standby sleep -->
     <string name="aggressive_standby_sleep_title">Aggressive standby sleep</string>
     <string name="aggressive_standby_sleep_summary">Aggressively kill background/running processes when device goes in idle to prevent battery drain</string>
+    <string name="background_management_title">Background management</string>
+    <string name="background_management_summary">Manage app tombstone freezing and background policies</string>
 </resources>

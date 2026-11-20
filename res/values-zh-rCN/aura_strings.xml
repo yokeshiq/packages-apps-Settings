@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="island_settings_title">灵动岛</string>
+    <string name="island_settings_summary">配置灵动岛媒体播放、充电提示与验证码胶囊</string>
+    <string name="island_switch_on">开启灵动岛</string>
+    <string name="island_switch_on_summary">在屏幕前置摄像头区域显示动态交互胶囊</string>
+    <string name="island_switch_charge">充电提示</string>
+    <string name="island_switch_charge_summary">接入电源或快充时在灵动岛展示电量与状态</string>
+    <string name="island_switch_media">音乐与媒体播放</string>
+    <string name="island_switch_media_summary">在灵动岛显示正在播放的媒体封面与快捷控制</string>
+    <string name="island_switch_sms">短信验证码上岛</string>
+    <string name="island_switch_sms_summary">自动提取短信验证码，支持一键复制或自动填充</string>
+    <string name="island_calibration_title">灵动岛位置与尺寸校准</string>
+    <string name="island_calibration_summary">微调胶囊与前置摄像头挖孔的对齐参数</string>
+    <string name="background_management_title">后台管理</string>
+    <string name="background_management_summary">管理应用墓碑冻结与后台运行策略</string>
+</resources>

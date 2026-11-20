@@ -17,6 +17,7 @@
 package com.android.settings.core.gateway;
 
 import com.android.settings.DisplaySettings;
+import com.android.settings.island.IslandFragment;
 import com.android.settings.IccLockSettings;
 import com.android.settings.MainClear;
 import com.android.settings.MainClearConfirm;
@@ -267,6 +268,8 @@ public class SettingsGateway {
             UserDictionaryList.class.getName(),
             UserDictionarySettings.class.getName(),
             DisplaySettings.class.getName(),
+            IslandFragment.class.getName(),
+        com.android.settings.island.IslandNotificationAppsFragment.class.getName(),
             MyDeviceInfoFragment.class.getName(),
             ModuleLicensesDashboard.class.getName(),
             ManageApplications.class.getName(),
@@ -301,6 +304,7 @@ public class SettingsGateway {
             PublicVolumeSettings.class.getName(),
             DevelopmentSettingsDashboardFragment.class.getName(),
             WifiDisplaySettings.class.getName(),
+            IslandFragment.class.getName(),
             PowerUsageSummary.class.getName(),
             PowerUsageAdvanced.class.getName(),
             AccountSyncSettings.class.getName(),
@@ -370,6 +374,7 @@ public class SettingsGateway {
             MainClearConfirm.class.getName(),
             ResetDashboardFragment.class.getName(),
             NightDisplaySettings.class.getName(),
+            IslandFragment.class.getName(),
             ManageDomainUrls.class.getName(),
             AutomaticStorageManagerSettings.class.getName(),
             StorageDashboardFragment.class.getName(),
